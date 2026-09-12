@@ -78,7 +78,7 @@ All notebooks are designed for the Kaggle environment (GPU accelerator required;
 **Team Kinyeti** (contributors):
 
 - *Israel Olawuyi Mobolaji*
-- *Harry Okay*
+- *Harry Okah*
 - *Edike jeremiah*
 - *Chisom Okafor*
 
