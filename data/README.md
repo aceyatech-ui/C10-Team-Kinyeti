@@ -8,4 +8,4 @@ The following sources were referenced for use as a source of dataset in our data
 2. The NATIONAL AGRICULTURAL EXTENSION AND RESEARCH LIAISON SERVICES (NAERLS) extension bulletins which can be accessed here [here](https://naerls.gov.ng/bulletins)
 
 
-To access the exact competition datasets used for the project, you can contact the competition organizers at ***hello@tri-ai.org***
+To access the exact competition datasets used for the project, you can contact the competition organizers at ***cohort-10@tri-ai.org***

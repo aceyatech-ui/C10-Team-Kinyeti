@@ -1,0 +1,8 @@
+kagglehub
+numpy
+pandas
+rank-bm25
+sentence-transformers
+torch
+tqdm
+transformers
