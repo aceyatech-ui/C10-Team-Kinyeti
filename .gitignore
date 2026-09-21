@@ -1,0 +1,20 @@
+# The corpus is staged into prototype/data/ at deploy time by
+# prototype/scripts/deploy_space.py, because the Space repo root is prototype/
+# and it cannot see the repository root. The authoritative copy is
+# data/documents.csv -- keeping the staged copy out of git stops the two
+# drifting apart.
+#
+# This has to live HERE, at the repository root, and not in prototype/.gitignore.
+# That file is uploaded to the Space, and the Hub applies a committed .gitignore
+# to the commit server-side -- so ignoring the corpus there silently strips it
+# from the Space, which then fails at runtime with "Could not find documents.csv".
+/prototype/data/documents.csv
+
+# Generated locally for design review by prototype/scripts/make_preview.py.
+/prototype/preview.html
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Agent Files
+HANDOFF.md
