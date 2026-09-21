@@ -1,0 +1,18 @@
+# Generated locally for design review by scripts/make_preview.py. It embeds a
+# snapshot of retrieval output, so committing it would mean committing stale
+# numbers alongside the code that produces them.
+preview.html
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# NOTE: do NOT add `data/documents.csv` to this file.
+#
+# This .gitignore is uploaded to the Space, and the Hub applies a committed
+# .gitignore to the commit *server-side*. Ignoring the corpus here therefore
+# strips it out of the Space -- which builds cleanly, reaches RUNNING, and then
+# fails on every request with "Could not find documents.csv".
+#
+# The staged copy is kept out of git by the repository-root .gitignore instead,
+# which never reaches the Space.

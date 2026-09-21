@@ -1,0 +1,12 @@
+# Dependencies for the Hugging Face Space (Gradio SDK, ZeroGPU hardware).
+#
+# torch is deliberately NOT listed. ZeroGPU images ship a torch in the range the
+# platform is validated against (2.8.0 - 2.13.0), and pinning or unpinning it
+# here risks pip replacing that version with one ZeroGPU does not support.
+# sentence-transformers pulls in torch, transformers and numpy by itself.
+
+gradio>=4.44
+spaces
+sentence-transformers>=3.0
+pandas
+rank-bm25
