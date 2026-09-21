@@ -16,7 +16,11 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-# Agent Files
+# Other Markdown Files
 HANDOFF.md
 GEMINI.md
 AGENTS.md
+NEWSLETTER.md
+
+# Newsletter FIles
+newsletter/
