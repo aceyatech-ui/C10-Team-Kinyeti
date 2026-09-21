@@ -18,3 +18,5 @@ __pycache__/
 .ipynb_checkpoints/
 # Agent Files
 HANDOFF.md
+GEMINI.md
+AGENTS.md
